@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Authors>Hunter Carlson</Authors>
+    <PackageProjectUrl>https://github.com/HunterCarlson/MathVis</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/HunterCarlson/MathVis.git</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WriteableBitmapEx" Version="1.6.5" />
+  </ItemGroup>
+
+</Project>
